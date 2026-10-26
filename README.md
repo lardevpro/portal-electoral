@@ -1,6 +1,6 @@
 # PortalElectoral API
 
-**PortalElectoral** es una API REST desarrollada en **.NET 8 / .NET Core** diseñada para gestionar y centralizar la información de procesos electorales. El sistema permite administrar partidos políticos, candidaturas, propuestas, provincias y realizar el seguimiento estadístico de los resultados de las elecciones.
+**PortalElectoral** es una API REST desarrollada en **.NET 10** diseñada para gestionar y centralizar la información de procesos electorales. El sistema permite administrar partidos políticos, candidaturas, propuestas, provincias y realizar el seguimiento estadístico de los resultados de las elecciones.
 
 ## 🚀 Características principales
 
@@ -13,9 +13,9 @@
 
 ## 🛠️ Tecnologías utilizadas
 
-* **Backend:** .NET 8 / Web API (C#)
-* **Persistencia:** Entity Framework Core con enfoque Code-First
-* **Base de Datos:** SQL Server / PostgreSQL (configurable en el DbContext)
+* **Backend:** .NET 10 / Web API (C#)
+* **Persistencia:** Entity Framework
+* **Base de Datos:** MySQL (configurable en el DbContext)
 * **Arquitectura:** Controladores (Controllers) con transferencia de datos optimizada mediante DTOs (Data Transfer Objects).
 
 ## 📂 Estructura del Proyecto
@@ -36,8 +36,8 @@ PortalElectoral/
 
 ## ⚙️ Requisitos Previos
 
-* **.NET 8 SDK** instalado en tu equipo.
-* Motor de base de datos compatible (como SQL Server) en ejecución.
+* **.NET 10 SDK** instalado en tu equipo.
+* Motor de base de datos compatible (como MySQL) en ejecución.
 * IDE recomendado: **Visual Studio 2022** o **VS Code** con la extensión de C#.
 
 ## 🛠️ Instalación y Configuración
